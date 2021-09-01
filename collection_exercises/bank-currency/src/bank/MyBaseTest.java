@@ -15,8 +15,8 @@ public class MyBaseTest extends BaseTest {
 
 	@Override
 	protected CurrencyConverter createCurrencyConverter(CurrencyRatesProvider ratesProvider) {
-		CurrencyConverter pav = new MyCurrencyConverter(ratesProvider);
-		return pav;
+		CurrencyConverter objCurrencyConverter = new MyCurrencyConverter(ratesProvider);
+		return objCurrencyConverter;
 	}
 
 }
